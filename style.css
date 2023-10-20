@@ -1,0 +1,86 @@
+.background{
+    position: static;
+    width: 150%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+html{
+    font-size: x-large;
+    font-style: oblique;
+    color: white;
+}
+.nav-bar a{
+    display: flexbox;
+    float: right;
+    margin: 0;
+    background-color: none;
+    color: antiquewhite;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav-bar a :hover{
+    background-color: antiquewhite;
+    color: balck;
+}
+
+body{
+    background: linear-gradient(to right,#ffc0cb,#9f62b2,#3b41b1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form{
+    width: 300px;
+    margin: 20vh  auto 0 auto;
+    padding: 30px;
+    background-color: rgb(191, 40, 146);
+    border-radius: 4px;
+    font-size: 12px;
+     margin-top: -350px;
+    left: 870px;
+    height: 300px;
+    bottom: 30px;
+
+}
+#form h1{
+    color: #0f2027;
+    text-align: center;
+
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41,57,194);
+    border: none;
+    border-radius: 4px;
+    margin: 20px 0px;
+    width: 100%;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+}
+.input-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+.input-control input:focus{
+    outline: 0;
+}
+.input-control sucess input{
+    border-color: #09c372;
+}
+.input-control error input{
+    border-color: red;
+}
+.input-control.error{
+    color: red;
+    font-size: 9px;
+    height: 13px;
+}
